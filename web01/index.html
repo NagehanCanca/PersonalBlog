@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagehan Canca | Kişisel Blog</title>
+    <meta name="keywords" content="Python,Java"/>
+    <meta 
+    name="description"
+    content="Nagehan Canca | Kişisel Blog"/>
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Tablet & Mobile-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-violet">
+        <div class="container">
+        <nav id="navbar">
+            <h1 class="heading-small">Nagehan Canca</h1>
+
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#information">Ben Kimim?</a></li>
+                <li><a href="#projects">Projeler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="home">
+        <img src="images/85052745.jfif" alt="Nagehan Canca">
+
+        <div class="name">
+            <h2 class="heading-big">Nagehan Canca</h2>
+            <p>Electrical and Electronics Engineer | Developer</p>
+
+        </div>
+
+        <a href="#informations" class="btn btn-primary">Hakkımda</a>
+    </section>
+
+    <section id="information" class="bg-dark-violet">
+        <h3 class="text-center heading-medium">Ben Kimim?</h3>
+            <div class="items">
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Kişisel Bilgiler</h3>
+                    <p>
+                        2000 Konya doğumlu, ikizler burcu.
+                    </p>
+                </article>
+
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Eğitim</h3>
+                    <p>
+                        Elektrik Elektronik Mühendisliği 2018 - 2023
+                    </p>
+                </article>
+
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Mezuniyet</h3>
+                    <p>
+                        Konya Gıda ve Tarım Üniversitesi 2023 mezunu.
+                    </p>
+                </article>
+            </div>
+    </section>
+
+    <section id="projects">
+        <h3 class="text-center heading-medium">Projeler</h3>
+        <div class="container">
+            <div class="projects">
+    <!-- Project 1-->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="images/flutter.png" alt="Flutter Game Project">
+                        <span>Flutter Game Project</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="Flutter Game Project">
+                            Android studio kullanılarak yazılan rol yapma oyunu.
+                       
+                        </div>
+                        <div class="description">
+                            Flutter(Dart)
+                        </div>
+                            <div class="users">
+                                Android & Ios 
+                            </div>
+                    </div>
+                </div>
+    <!-- Project 2-->
+                 <div class="project">
+                     <div class="project-image">
+                        <img src="images/web.jfif" alt="Web Site">
+                        <span>Web Site</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="Web Site">
+                            Html, Css ve JavaScript kullanılarak web sayfası oluşturma.
+                       
+                        </div>
+                        <div class="description">
+                            Back-end & Frond-end 
+                        </div>
+                            <div class="users">
+                                Google Chrome
+                            </div>
+                    </div>
+                </div>
+            
+            
+    <!-- Project 3-->
+                 <div class="project">
+                    <div class="project-image">
+                        <img src="images/csharp_banner.png" alt="Alışveriş Sitesi">
+                        <span>ShopifyLife</span>
+                    </div>
+                    <div class="project-info">
+                        <div class="ShopifyLife">
+                            Kullanıcıların rahatlıkla alışveriş yapabildiği platform.
+                        </div>
+                        <div class="description">
+                            ASP.Net Core & C#
+                        </div>
+                            <div class="users">
+                                Google Chrome & Android & Ios 
+                            </div>
+                    </div>
+                </div>
+                        </div>
+            
+                    </div>
+        
+    </section>
+
+    <footer id="contact" class="bg-dark-violet">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+              <!--İSİM -->
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                </div>
+              <!-- E MAil-->
+                <div class="form-group">
+                    <label for="e-mail">E-mail</label>
+                    <input type="text" class="form-control" name="e-mail" id="e-mail" placeholder="E-mail">
+                </div>
+              <!-- MESAJ -->
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a></li>      
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
